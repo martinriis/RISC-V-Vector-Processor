@@ -84,8 +84,8 @@ Please note, these are the opcodes used for specifying the operation of each exe
 | `001001` | `ALU_VSRL`| `A >> B`  |
 | `001010` | `ALU_VSRA` | `A >>> B` |
 | `001011` | `ALU_VADD` | `A + B` |
-| `001100` | `ALU_VSUB` | `¬(A + B)` |
-| `001101` | `ALU_VMIN` | `A ⊕ B`|
-| `001110` | `ALU_VMAX` | `¬(A ⊕ B)` |
+| `001100` | `ALU_VSUB` | `A - B` |
+| `001101` | `ALU_VMIN` | `min(A, B)`|
+| `001110` | `ALU_VMAX` | `max(A, B)` |
 | `001111` | `ALU_VADC` | `A + B + Cin` |
 | `001110` | `ALU_VSBC` | `A - B - Cin` |
