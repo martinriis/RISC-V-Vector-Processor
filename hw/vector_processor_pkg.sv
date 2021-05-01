@@ -44,18 +44,6 @@ typedef enum logic [2:0] {
     VE      = 3'h7  // Vector element  
 } lsu_widths;
 
-// Vector ALU Formats
-typedef enum logic [2:0] {
-    OPIVV   = 3'h0, // Integer vector-vector
-    OPFVV   = 3'h1, // Floating point vector-vector
-    OPMVV   = 3'h2, // ? vector-vector
-    OPIVI   = 3'h3, // Vector-immediate
-    OPIVX   = 3'h4, // Vector-scalar
-    OPFVF   = 3'h5, // Vector-scalar
-    OPMVX   = 3'h6, // Vector-scalar
-    OPCFG   = 3'h7  // Scalar-immediate
-} valu_types;
-
 // Vector ALU OPCODEs
 typedef enum logic[5:0] {
     // LOGIC
