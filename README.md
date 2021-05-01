@@ -19,7 +19,7 @@ The SEW defines the width of each word in the vector. For example, a 256-bit vec
 | `110` | 512 |
 | `111` | 1024 |
 
-Although some execution units can operate on and value of SEW up to 256 (bits), most only support upto 64 (bits).
+Although some execution units can operate on and value of SEW up to 256 (bits), most only support up to 64 (bits).
 
 ### 2.2 Vector Length (VLEN)
 VLEN describes the total length (usually in bits) of the vectors operated upon by the processor. In this design, VLEN is fixed at 256 bits. In the future, some simple elements, such as the ALU may be extended to support arbitrary vector lengths. 
